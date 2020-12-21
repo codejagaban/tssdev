@@ -35,6 +35,11 @@ const Services = () => {
       icon: hotelIcon,
       heading: "Spacious rooms for awesome parties",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+    },
+    {
+      icon: hotelIcon,
+      heading: "Spacious rooms for awesome parties",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
      },
   ]
   return (

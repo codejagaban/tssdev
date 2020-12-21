@@ -33,25 +33,26 @@ const LeftArrowWrapper = styled.button`
   width: 51px;
   height: 51px;
   cursor: pointer;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   position: absolute;
-  bottom: 10%;
+  bottom: 40%;
   z-index: 10;
-  right: 13.5%;
   outline: none;
-  border: 1px solid #FFF;
+  left: -7%;
+  opacity: 0.5;
+  border: 1px solid #FFFFFF;
 
   `
   const RightArrowWrapper = styled.button`
   width: 51px;
   height: 51px;
   cursor: pointer;
-  background-color: #5863F8;
+  background-color: #FFFFFF;
   position: absolute;
-  bottom: 10%;
+  bottom: 40%;
   z-index: 10;
-  right: 10.3%;
+  right: -7%;
   outline: none;
-  border: 1px solid #5863F8;
+  border: 1px solid #FFFFFF;
 
   `

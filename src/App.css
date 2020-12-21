@@ -26,3 +26,8 @@ ul.slick-dots {
 .slick-dots li.slick-active button:before {
   color:#5863F8 !important;
 }
+.slick-slide img {
+  display: block;
+  margin-top: -16px !important;
+  margin-left: -16px !important;
+}
