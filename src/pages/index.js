@@ -2,6 +2,7 @@ import React from "react"
 import AboutIntro from "../components/AboutIntro"
 import Blog from "../components/Blog"
 import CheckoutWidget from "../components/CheckoutWidget"
+import Gallery from "../components/Gallery"
 import Hero from "../components/Hero"
 import Layout from "../components/Layouts"
 import Restaurant from "../components/Resturants"
@@ -23,6 +24,7 @@ const HomePage = () => {
           <Restaurant />
           <Blog />
         </div>
+        <Gallery />
       </div>
     </Layout>
   )
