@@ -37,7 +37,7 @@ const LeftArrowWrapper = styled.button`
   position: absolute;
   bottom: 10%;
   z-index: 10;
-  right: 12%;
+  right: 13.5%;
   outline: none;
   border: 1px solid #FFF;
 
@@ -50,7 +50,7 @@ const LeftArrowWrapper = styled.button`
   position: absolute;
   bottom: 10%;
   z-index: 10;
-  right: 9%;
+  right: 10.3%;
   outline: none;
   border: 1px solid #5863F8;
 

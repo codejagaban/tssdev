@@ -18,10 +18,12 @@ const Hero = () => {
     {
       image: bgHero,
       heading: "The best hotel you will ever need",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad",
     },
     {
       image: bgHero,
       heading: "The best hotel you will ever need 2nded",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad",
      },
   ]
   return (
@@ -38,7 +40,7 @@ const Hero = () => {
                     {slide.heading}
                       </h1>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        {slide.description}
                       </p>
                     </div>
                   </div>
