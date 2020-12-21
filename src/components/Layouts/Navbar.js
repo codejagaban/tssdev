@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import styled from "styled-components"
-import DropDown from "./DropDown"
 const Navbar = () => {
   return (
     <NavWrapper>
@@ -19,7 +18,6 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to="/">Rooms</Link>
-                {/* <DropDown /> */}
               </li>
               <li>
                 <Link to="/">Restaurant</Link>

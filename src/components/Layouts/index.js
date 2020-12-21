@@ -1,6 +1,7 @@
 import React from "react"
 import Navbar from "./Navbar"
 import PropTypes from "prop-types"
+import Footer from "./Footer"
 
 const propTypes = {
   children: PropTypes.oneOfType([PropTypes.node, PropTypes.element]),
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
     <>
       <Navbar />
       <main>{children}</main>
+      <Footer/>
     </>
   )
 }
